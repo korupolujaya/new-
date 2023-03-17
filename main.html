@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Profile Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <style>
+            body{
+                background-color:rgba(135, 132, 134, 0.099);
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+          
+              
+              .nav-bar{
+                display:flex;
+                justify-content: space-around;
+                background-color:rgb(200, 193, 148);
+                color:rgb(213, 214, 215);
+                padding:20px;
+                font-weight: 400;
+                font-size:15px ;
+              }
+
+             
+              
+            .heading{
+                align-items: center;
+                display:flex;
+                flex-direction: row;
+                justify-content: center;
+                align-self: center;
+                margin-top:200px;
+            }
+            .child{
+                
+                
+                font-size:30px;
+            }
+            .avatar {
+                vertical-align: middle;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                margin-left:10px;
+                
+              }
+              table, th, td {
+                border:1px solid rgb(27, 23, 23);
+              }
+              table{
+                margin-left:auto;
+                margin-right:auto;
+
+              }
+              tr,td{
+                padding:20px;
+              }
+              .work{
+              
+                     display:flexbox;
+              }
+              center{
+                margin-left:40px;
+              }
+            
+            .footer{
+              background-color:rgb(227, 21, 83);
+              padding:20px;
+              text-align: justify;
+              color:rgb(226, 225, 218);
+              display: flex;
+              justify-content:space-between;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="nav-bar">
+        
+            <div><a>Home</a></div>
+            <div><a href="#work">Work Experience</a></div>
+            <div><a href="#project">Projects</a></div>
+            <div><a href="#skill">skills</a></div>
+            <div><a href="#interest">Intersts</a></div>
+         
+        </div>
+    <div class="heading">
+        <div class="child">
+            <h1>Hello,I am Jaya Sai<h1>
+            </h1>A bit About me......</h1>
+        </div>
+        <div class="child">
+        <img src="jayasai_image.png" alt="Avathar" class="avatar">
+      </div>
+     </div>
+     <div class="work">
+        <h2 id="work"><strong>Work Experience</stro></h2>
+        
+            <ol>
+                <li>
+            <h3>Developer/System Adminstrator</h3>
+            <h3>05/2021 - Present</h3>
+            <h4><u>Achievements/Tasks</u></h4>
+            <ul>
+                <li>Troubleshooting application issues from backend using SQL developer Tool</li>
+                <li>Maintenance & repair for Dashboard Application</li>
+                <li>Managing Hosts & applications by performing daily health checks </li>
+                <li>Helping clients in resolving their problems</li>
+                <li>Software Documentation</li>
+                <li>Automated a task for FIFA workcup for client and daily manual tasks</li>
+            </ul>  
+        </li> 
+        
+        <li>
+            <h3>System Adminstrator</h3>
+            <h3>07/2019 - 05/2021</h3>
+            <h4><u>Achievements/Tasks</u></h4>
+            <ul>
+                <li>Application monitoring with HPBSM (Business service monitoring) , HPBPM (business process monitoring), HP vugen(scripting tool), Sending Daily , Monthly Reports & KPI reports
+                <li>Server ,URL & listner monitoring in HP sitescope</li> 
+                <li>Worked with front end technologies in my project POC called "OMAdmin" </li>
+            </ul>
+        </li>
+        </ol>
+        </div>
+     </div>
+     <table style="width:80%">
+        <tr>
+          <th>Education Qualification</th>
+          <th>Institution</th>
+          <th>Board/University</th>
+          <th>Year of completion</th>
+        </tr>
+        <tr>
+          <td>Master of Computer Applications</td>
+          <td>SASTRA University</td>
+          <td>SASTRA University</td>
+          <td>Feb 2023</td>
+         
+        </tr>
+        <tr>
+            <td>B.Sc Physics</td>
+            <td>Aditya Degree College</td>
+            <td>Andhra University</td>
+            <td>Apr 2019</td>
+        </tr>
+        <tr>
+            <td>Intermediate </td>
+            <td>Sri Chaitanya Junior College</td>
+            <td>Board of Intermediate</td>
+            <td>Apr 2016</td>
+        </tr>
+        <tr>
+            <td>S.S.C </td>
+            <td>A.P.Residential School, Bhemunipatnam</td>
+            <td>Board of secondary Education</td>
+            <td>May 2014</td>
+        </tr>
+
+      </table>
+      <div class="skills">
+        <h2 id="skill"><strong>Skills</strong></h2>
+        <ol class="center">
+            <li>SQL</li>
+            <li>python with Flask Framework</li>
+            <li>C and JAVA</li>
+            <li>Git</li>
+            <li>HTML, Css and bootstrap</li>
+            <li>Basic knowledge in Angular</li>
+            
+        </ol>
+      </div>
+      <div class="Projects center">
+
+        <h2 id="project"><strong>Projects</strong></h2>
+        <ol>
+        <li>1. Criminal Face Identification project (03/2019 - 05/2019)</li>
+        <li>2. Aweb application (08/2022 - 09/2022) <p>It's to check SSO Id details and shows expiry of SSO Id's with filter,using python & flask frame work,front end technologies like HTML, CSS and Javascript, Ajax.</p></li>
+        </ol>
+      </div>
+      <div>
+        <h2 id="interest"><strong>Interests</strong></h2>
+        <ol class="center">
+            <li>Volunteering</li>
+            <li>Yoga</li>
+            <li>Teaching</li>
+            <li>Learning new Technologies</li>
+        </ol>
+      </div>
+        
+    </body>
+    <footer class="footer">
+      <div>
+        <i class="glyphicon glyphicon-envelope"></i>
+        <span>saijaya731@gmail.com</span>
+      </div>
+      <div>
+        
+        <i class="fa fa-lg fa-linkedin"></i>
+        <span>linkedin.com/in/jaya-sai-b6a4b7220</span>
+      </div>
+      <div>
+        <i class="glyphicon glyphicon-user"></i>
+        <span>7995748174</span>
+      </div>
+      
+      <div>
+        <i class="fa fa-lg fa-github"></i>
+        <span>github.com/korupolujaya</span>
+      </div>
+      
+    </footer>
+</html>
